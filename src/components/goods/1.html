@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>display:table实现垂直居中</title>
+</head>
+<body>
+
+<style type="text/css" rel="stylesheet">
+  .table {
+    display: table;
+    margin: 5px;
+    width: 500px;
+    height: 300px;
+    background-color: #ccc;
+  }
+
+  .cell {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;/*该属性是定义行内元素垂直对齐的，只有行内元素会生效。在表单元格中，这个属性会设置单元格框中的单元格内容的对齐方式。*/
+  }
+</style>
+<div class="table">
+  <div class="cell">内容内容内容内容内容内内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</div>
+</div>
+</body>
+</html>
